@@ -1,0 +1,56 @@
+  <!-- <!- Apps ->
+    <section class="my-apps">
+        <h2>تطبيقاتي</h2>
+        <div>Warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\الموقع التعريفي\index.php:117) in C:\xampp\htdocs\الموقع التعريفي\index.php on line 157
+
+            <article>
+                <h3>الاسم</h3>
+                <img width="100" src="images/css.svg" alt="">
+                <a href="">تحميل التطبيق</a>
+            </article>
+            <article>
+                <h3>الاسم</h3>
+                <img width="100" src="images/css.svg" alt="">
+                <a href="">تحميل التطبيق</a>
+            </article>
+            <article>
+                <h3>الاسم</h3>
+                <img width="100" src="images/css.svg" alt="">
+                <a href="">تحميل التطبيق</a>
+            </article>
+            <article>
+                <h3>الاسم</h3>
+                <img width="100" src="images/css.svg" alt="">
+                <a href="">تحميل التطبيق</a>
+            </article>
+        </div>
+    </section>
+    <hr> -->
+
+       <!-- Contact -->
+    <section class="contact">
+        <h2>تواصل معنا</h2>
+        <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
+            <div>
+                <label for="name">الاسم الكامل :</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="mail">البريد الإلكتروني :</label>
+                <input type="email" name="email" id="mail">
+            </div>
+            <div>
+                <label for="msg">اكتب رسالتك هنا :</label>
+                <textarea name="message" id="msg"></textarea>
+            </div>
+            <input type="submit" name="send" value="إرسال">
+            <hr>
+            <div class="icons">
+                <a target="_blank" title="تواصل معنا عبر واتساب" href="">
+                    <img src="images/whatsapp.svg" alt="">
+                </a>
+                <a target="_blank" title="تواصل معنا عبر تيليجرام" href="">
+                    <img src="images/telegram.svg" alt="">
+                </a>
+            </div>
+        </form>
